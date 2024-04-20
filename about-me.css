@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+.img-banner {
+  display: none;
+}
+
+.img-info {
+  width: 100%;
+
+}
+
+.img-info h2{
+  padding: 30px 30px 20px;
+  font-family: Arial;
+  font-size: 50px;
+  color: #111;
+  line-height: 44px;
+}
+
+.img-info p{
+  padding: 0px 30px 20px;
+  font-family: Arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+}
+
+.img-me{
+  width: 100%;
+}
+@media screen {
+  .img-banner {
+    display: block;
+    width: 100%;
+  }
+
+  .img-me{
+    position: relative;
+    padding-left: 10%;
+    width: 80%;
+  }
+
+  
+}
+
